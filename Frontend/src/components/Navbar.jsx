@@ -43,13 +43,13 @@ function Navbar() {
         <a href="/">Home</a>
       </li> */}
       <li>
-        <Link to="/course" > MERN Project</Link>
+        <Link to="/course" >Cousre</Link>
       </li>
       <li>
         <a>Contact</a>
       </li>
       <li>
-        <a>About</a>
+        <Link to="/" >Portfolio</Link>
       </li>
     </>
   );
