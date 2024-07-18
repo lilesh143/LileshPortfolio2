@@ -37,8 +37,8 @@ try {
 // app.use("/", (req, res) => {
 //     res.send("Hello World");
 // });
-app.use("/book", bookRoute);
-app.use("/user", userRoute);
+app.use("/api/book", bookRoute);
+app.use("/api/user", userRoute);
 app.use("/api/projects", projectRoute);
 
 app.listen(PORT, () => {
