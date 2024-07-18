@@ -42,7 +42,7 @@ function Navbar() {
         <a href="/">Home</a>
       </li> */}
       <li>
-        <a href="https://lilesh-portfolio2.vercel.app/course">Course</a>
+        <Link to="/course" > MERN Project</Link>
       </li>
       <li>
         <a>Contact</a>
