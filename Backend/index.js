@@ -9,7 +9,10 @@ import projectRoute from "./route/project.route.js"
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    methods: ["POST", "GET", "OPTIONS", "PATCH", "DELETE", "PUT"],
+    credentials: true
+}));
 app.use(express.json());
 
 dotenv.config();
