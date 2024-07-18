@@ -16,7 +16,7 @@ function Login() {
       password: data.password,
     };
     await axios
-      .post("/api/user/login", userInfo)
+      .post("https://lilesh-portfolio2.vercel.app/api/user/login", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
