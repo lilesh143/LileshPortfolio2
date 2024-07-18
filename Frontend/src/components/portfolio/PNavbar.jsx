@@ -48,7 +48,7 @@ function PNavbar() {
         <a>Contact</a>
       </li>
       <li>
-        <a href="/mernproject">Projects</a>
+        <Link to="/mernproject" ></Link>
       </li>
     </>
   );
