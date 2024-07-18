@@ -18,7 +18,7 @@ function PCard({ item }) {
             <div className="card-actions justify-between">
               <div className="badge badge-outline"><a target="_blank" href={item.git}>GitHub</a></div>
               <div className=" cursor-pointer px-4 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white duration-200">
-              element={item.id==2 ? <a href={item.link} target="_blank" >Link</a> : <Link to="/signup"Link> Link</Link> }
+              element={item.id==2 ? <a href={item.link} target="_blank" >Link</a> : <Link to="/signup"> Link</Link> }
 
                 <a href={item.link} target="_blank" >Link</a>
               </div>
