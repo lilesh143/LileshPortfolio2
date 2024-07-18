@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import Login from "../Login";
 import Logout from "../Logout";
+import { Link } from "react-router-dom";
 import { useAuth } from "../../context/AuthProvider";
 
 function PNavbar() {
