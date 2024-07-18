@@ -20,11 +20,11 @@ app.use(express.json());
 
 
 const PORT = process.env.PORT || 4001;
-const URI = process.env.MongoDBURI;
+// const URI = process.env.MongoDBURI;
 
 // connect to mongoDB
 try {
-    mongoose.connect(URI, {
+    mongoose.connect("mongodb+srv://Lilesh:Lilesh@cluster0.c6xichu.mongodb.net/mernDatabase", {
         // useNewUrlParser: true,
         // useUnifiedTopology: true,
     });
