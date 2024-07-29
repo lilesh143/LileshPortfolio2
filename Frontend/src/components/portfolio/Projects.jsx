@@ -64,7 +64,8 @@ function Projects() {
         <div>
           <h1 className="font-semibold text-center text-xl pb-2">Projects</h1>
           <p className="text-center">
-            Explore in diffrent technologies and learned new concepts of development. Here are some projects of mine  
+            Explored in different technologies and learned new concepts of development. <p className="text-pink-600
+            ">Swipe right to check out my new projects.  </p>  
           </p>
         </div>
 

@@ -68,7 +68,7 @@ function PBanner() {
         <div className=" order-1 w-full  md:w-1/2">
           <img
             src={Pbaner}
-            className="md:w-[550px] md:h-auto md:ml-12 md:mt-10"
+            className="md:w-[550px] w-[400]  md:h-auto md:ml-12 mt-12"
             alt=""
           />
         </div>

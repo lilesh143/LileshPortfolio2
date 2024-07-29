@@ -49,7 +49,7 @@ function PNavbar() {
         <a>Contact</a>
       </li>
       <li>
-        <Link to="/mernproject" > MERN Project</Link>
+        <Link to="/mernproject" >MERN Project</Link>
       </li>
     </>
   );
@@ -92,7 +92,7 @@ function PNavbar() {
                 {navItems}
               </ul>
             </div>
-            <a className=" text-xl font-bold cursor-pointer">Lilesh Bawane - Full Stack Developer</a>
+            <a className="  cursor-pointer"> <p className="md:text-xl sm:text-sm md:font-bold" > Lilesh Bawane - Full Stack Developer </p> </a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
