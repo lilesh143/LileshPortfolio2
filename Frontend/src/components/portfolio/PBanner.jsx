@@ -18,14 +18,14 @@ function PBanner() {
             </p>
             <div className="">
               <div className="font-bold text-xl mb-2">Lilesh Bawane</div>
-              <p className="text-gray-700 text-base mb-2">
+              <p className="text-slate-100 text-base mb-2">
                 Email: lileshrocking@gmail.com
               </p>
-              <p className="text-gray-700 text-base mb-2">
+              <p className="text-slate-100 text-base mb-2">
                 Contact: 9325926559
               </p>
-              <p className="text-gray-700 text-base mb-2">Location: Pune</p>
-              <p className="text-gray-700 text-base mb-2">
+              <p className="text-slate-100 text-base mb-2">Location: Pune</p>
+              <p className="text-slate-100 text-base mb-2">
                 Languages: English, Hindi, Marathi
               </p>
               <div className="flex space-x-4 mt-4">
@@ -34,7 +34,7 @@ function PBanner() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
-                >
+                > 
                   <svg
                     className="w-6 h-6"
                     fill="currentColor"
